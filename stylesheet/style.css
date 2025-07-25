@@ -82,4 +82,81 @@
 }
 
 
-/* plant section */
+/* plant lover section */
+.plant-lover{
+  display: flex;
+  margin-left: -3.8rem;
+  justify-content: space-between;
+  gap: 60px;
+  max-width:71.25rem; 
+  max-height:37.32rem;
+  margin-top: 13rem;
+}
+.text-container{
+  max-width:34rem; 
+  max-height:32.6rem;
+}
+.pl-title{
+  margin-bottom: 1.25rem;
+  margin-top: 2.2rem;
+}
+.pl-li{
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/* join section */
+.join-section {
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 33.4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8rem;
+}
+
+.join-title {
+  text-align: center;
+  padding: 20px;
+}
+
+.join-title h1 {
+  color: white;
+  font-size: 3rem;
+ font-weight: bold;
+ margin-bottom: 1.5rem;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-form input {
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  width:41rem;
+  height: 3.25rem;
+  
+}
+
+.subscribe-form button {
+  padding: 1rem 3rem;
+  background-color: #E95A08;
+  color: white;
+  font-size:1rem;
+}
